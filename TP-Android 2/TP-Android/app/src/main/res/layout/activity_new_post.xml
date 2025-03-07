@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Champ pour le titre -->
+    <EditText
+        android:id="@+id/postTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titre du post"
+        android:inputType="text" />
+
+    <!-- Champ pour la description -->
+    <EditText
+        android:id="@+id/postDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description du post"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:gravity="top" />
+
+    <!-- Bouton pour enregistrer le post -->
+    <Button
+        android:id="@+id/savePostButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer le post" />
+</LinearLayout>
